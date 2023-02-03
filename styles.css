@@ -18,9 +18,6 @@ body {
     box-sizing: border-box;
     
 }
-.container {
-    
-}
 
 img {
     width: 200px;
@@ -72,6 +69,12 @@ img {
 .activities {
     text-align: center;
     margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .activities {
+    display: block;
+  }
 }
 .guide-container {
     display: flex;

@@ -75,6 +75,9 @@ img {
   .container-wrap {
     display: block;
   }
+    .guide-container {
+        width: 200px;
+    }
 }
 .guide-container {
     display: flex;
